@@ -9,7 +9,7 @@ const { text, icon, url, bgImage } = Astro.props;
     rel="noopener noreferrer"
     target="_blank"
     href={url}
-    class={`relative flex items-center justify-center gap-2 overflow-hidden rounded-full bg-lightModeCustomLinkBackground px-6 py-3 text-lg text-lightModeCustomLinkText ring-2 ring-lightModeCustomLinkOutline transition-colors hover:bg-lightModeCustomLinkBackgroundHover hover:text-lightModeCustomLinkTextHover hover:ring-lightModeCustomLinkOutlineHover dark:bg-darkModeCustomLinkBackground dark:text-darkModeCustomLinkText dark:ring-darkModeCustomLinkOutline dark:hover:bg-darkModeCustomLinkBackgroundHover dark:hover:text-darkModeCustomLinkTextHover dark:hover:ring-darkModeCustomLinkOutlineHover ${bgImage ? `h-80 rounded-2xl` : ""}`}
+    class={`relative flex items-center justify-center gap-2 overflow-hidden rounded-full bg-lightModeCustomLinkBackground px-6 py-3 text-lg text-lightModeCustomLinkText ring-2 ring-lightModeCustomLinkOutline transition-colors hover:bg-lightModeCustomLinkBackgroundHover hover:text-lightModeCustomLinkTextHover hover:ring-lightModeCustomLinkOutlineHover dark:bg-darkModeCustomLinkBackground dark:text-darkModeCustomLinkText dark:ring-darkModeCustomLinkOutline dark:hover:bg-darkModeCustomLinkBackgroundHover dark:hover:text-darkModeCustomLinkTextHover dark:hover:ring-darkModeCustomLinkOutlineHover ${bgImage ? `h-80 rounded-lg` : ""}`}
   >
     {
       bgImage && (
