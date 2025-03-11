@@ -9,11 +9,6 @@ export default defineConfig({
   redirects: {
     "/blog": "/",
   },
-  adapter: {
-    webAnalytics: {
-      enabled: true,
-    },
-  },
   site: "https://example.treelink.com",
   integrations: [tailwind(), sitemap(), icon()],
 });
