@@ -14,7 +14,7 @@ export default defineConfig({
 
   site: "https://example.treelink.com",
   integrations: [tailwind(), sitemap(), icon()],
-  output: "server",
+  output: "static",
   adapter: vercel({
     webAnalytics: {
       enabled: true,
